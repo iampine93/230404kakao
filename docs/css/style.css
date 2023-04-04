@@ -217,13 +217,6 @@ html > body {
   background-color: #fafafa;
 }
 
-.top-banner-box-type .cont-box {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
 .top-banner-box-type .cont-box .btn-box > a {
   display: flex;
   align-items: center;
@@ -249,9 +242,18 @@ html > body {
   width: 473px;
 }
 
+.top-banner-b-1 .cont-box {
+  margin-left: auto;
+  margin-right: 80px;
+}
+
 /* top-banner-1 END */
 
 /* top-banner-2 START */
+
+.top-banner-b-2 .cont-box {
+  margin-left: 100px;
+}
 
 .top-banner-b-2 > .con > div:first-child .btns-box > a {
   background-color: #f6f6f6;
@@ -272,6 +274,10 @@ html > body {
   width: 440px;
 }
 
+.top-banner-b-2 .img-box {
+  margin-left: 30px;
+}
+
 .top-banner-b-2 .img-box > img {
   width: 409px;
   height: 722px;
@@ -289,6 +295,10 @@ html > body {
 
 /* top-banner-3 START */
 
+.top-banner-b-3 .img-box {
+  margin-left: 60px;
+}
+
 .top-banner-b-3 .img-box > img {
   width: 459px;
   height: 607px;
@@ -297,6 +307,10 @@ html > body {
 /* top-banner-3 END */
 
 /* top-banner-4 START */
+
+.top-banner-b-4 .cont-box {
+  margin-left: 68px;
+}
 
 .top-banner-b-4 .img-box > img {
   width: 492px;
